@@ -20,11 +20,6 @@ function handleArrays() {
 
         const complete = arrays[0].getElementsByClassName('complete')[0];
 
-        if (complete.innerText == 'Dann') {
-            alert('Tiếc quá, mình k nhận giải của mình được, vui lòng random lại !')
-            document.location.reload();
-        }
-
         setTimeout(() => {
             alert(`Chúc mừng kẻ may mắn hôm nay :${complete.innerText}`);
         }, 1000);
