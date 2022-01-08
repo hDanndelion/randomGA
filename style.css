@@ -1,0 +1,32 @@
+.hidden {
+    opacity: 0;
+}
+
+.active {
+    border-color: red;
+    background-color: yellow;
+    color: red;
+}
+
+ul {
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+li {
+    list-style: none;
+    width: 25%;
+    height: 50px;
+    border: 2px solid #000;
+    margin: 4px;
+    text-align: center;
+    transition: background-color 0.1s, color 0.1s, opacity 1s;
+}
+
+button {
+    margin-top: 20px;
+    transform: translateX(calc(50vw - 21px));
+}
