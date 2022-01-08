@@ -3,7 +3,7 @@ var arrays = [...document.getElementsByTagName('li')];
 
 random.onclick = () => {
     for (let i=1; i<=11; i++) {
-        setTimeout(handleArrays, i*100 );
+        setTimeout(handleArrays, i*1500 );
     }
 
     
@@ -27,6 +27,6 @@ function handleArrays() {
 
         setTimeout(() => {
             alert(`Chúc mừng kẻ may mắn hôm nay :${complete.innerText}`);
-        }, 100);
+        }, 1500);
     }
 }
