@@ -27,6 +27,6 @@ function handleArrays() {
 
         setTimeout(() => {
             alert(`Chúc mừng kẻ may mắn hôm nay :${complete.innerText}`);
-        }, 1500);
+        }, 1000);
     }
 }
